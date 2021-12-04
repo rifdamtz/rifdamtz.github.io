@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Pacifico&family=Poppins&display=swap');
+
+html, body, header{
+    scroll-behavior: smooth;
+}
+p.arti, a.nav, ol.jenis, p.itg1, p.rumus, p.ket, ul.ket, p.inline, ol.cth, p.jwb, p.kt, p.cth{
+    font-family: 'Gaegu', cursive;
+}
+
+@media (min-width:768px){
+    section{
+        width: 100%;
+        min-height: 100vh;
+    }
+    a.nav{
+        color: black;
+        font-size: 22px;
+        margin-right: 25px;
+        text-decoration: none;
+        border: 1px solid transparent;
+        transition: 0.6s;
+    }
+    a.nav:hover{
+        background-color: #ECD5E3;
+        color: white;
+        border-radius: 7px;
+    }
+    div.head{
+        list-style-type: none;
+        float: right;
+        margin-top: 20px;
+    }
+    .title{
+        text-align: center;
+    }
+    h1{
+        color: #b998ad;
+        font-size: 85px;
+        font-family: 'Pacifico', cursive;
+    }
+    h1.inline{
+        font-size: 65px;
+    }
+    p.inline{
+        font-size: 33px;
+    }
+    p.jwb{
+        font-size: 25px;
+    }
+    p.arti{
+        font-size: 30px;
+    }
+    p.kt{
+        font-size: 25px;
+    }
+    ol.jenis{
+        font-size: 30px;
+    }
+    ol.cth{
+        font-size: 30px;
+    }
+    p.itg1{
+        font-size: 30px;
+    }
+    p.rumus{
+        font-size: 33px;
+    }
+    .rms{
+        width: 30vw;
+        margin: 15px;
+    }
+    p.ket{
+        font-size: 25px;
+    }
+    ul.ket{
+        font-size: 25px;
+    }
+    div.rumus{
+        width: fit-content;
+        background-color: #ECD5E3;
+        border-radius: 17px;
+    }
+    .btn{
+        border: 1px solid black;
+        padding: 10px 20px;
+        color: black;
+        font-size: 24px;
+        text-decoration: none;
+        transition: 0.6s;
+        font-family: 'Gaegu', cursive;
+    }
+    .btn:hover{
+        background-color: #ECD5E3;
+        color: black;
+        border-radius: 7px;
+    }
+}
+@media(max-width:767.8px){
+    section{
+        width: 100%;
+        min-height: 100vh;
+    }
+    a.nav{
+        color: black;
+        font-size: 22px;
+        margin-right: 25px;
+        text-decoration: none;
+        border: 1px solid transparent;
+        transition: 0.6s;
+    }
+    a.nav:hover{
+        background-color: #ECD5E3;
+        color: white;
+        border-radius: 7px;
+    }
+    div.head{
+        list-style-type: none;
+        float: right;
+        margin-top: 20px;
+    }
+    .title{
+        margin-top: 50vw;
+    }
+    h1{
+        color: #b998ad;
+        font-size: 65px;
+        font-family: 'Pacifico', cursive;
+    }
+    h1.inline{
+        font-size: 50px;
+    }
+    p.inline{
+        font-size: 30px;
+        margin: 10px;
+    }
+    p.jwb{
+        font-size: 25px;
+    }
+    p.arti{
+        font-size: 27px;
+        margin-top: 2px;
+    }
+    p.kt{
+        font-size: 25px;
+        height: 15px;
+        margin-bottom: 2vw;
+    }
+    ol.jenis{
+        font-size: 27px;
+    }
+    ol.cth{
+        font-size: 30px;
+    }
+    p.itg1{
+        font-size: 25px;
+    }
+    p.rumus{
+        font-size: 29px;
+    }
+    p.ket{
+        font-size: 25px;
+    }
+    p.cth{
+        font-size: 29px;
+        height: 15px;
+    }
+    ul.ket{
+        font-size: 25px;
+    }
+    div.rumus{
+        width: fit-content;
+        background-color: #ECD5E3;
+        border-radius: 17px;
+    }
+    .rms{
+        width: 80vw;
+        margin: 15px;
+    }
+    .jawaban{
+        width: 90vw;
+    }
+    .sl{
+        margin-top: 20px;
+    }
+    .btn{
+        border: 1px solid black;
+        padding: 10px 20px;
+        color: black;
+        font-size: 24px;
+        text-decoration: none;
+        transition: 0.6s;
+        font-family: 'Gaegu', cursive;
+    }
+    .btn:hover{
+        background-color: #ECD5E3;
+        color: black;
+        border-radius: 7px;
+    }
+}
