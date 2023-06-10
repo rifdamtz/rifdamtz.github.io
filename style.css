@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+html, body, header{
+    scroll-behavior: smooth;
+}
+a.nav, ol.jenis, p.per, p.rumus, p.ket, ul.ket, p.inline, ol.cth, p.jwb, p.kt, p.cth, p, ul.jenis, nav{
+    font-family: 'Nunito', sans-serif;
+}
+
+@media (min-width:768px){
+    section{
+        width: 100%;
+        min-height: 100vh;
+    }
+    div.head{
+        list-style-type: none;
+        float: right;
+        margin-top: 20px;
+    }
+    .title{
+        text-align: center;
+    }
+    h1{
+        color: #000000;
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+    }
+    h1.inline{
+        font-size: 22px;
+    }
+    ol.jenis{
+        font-size: 18px;
+    }
+    p.per{
+        font-size: 18px;
+        color: #000000;
+    }
+    p.inline{
+        font-size: 20px;
+    }
+    ul.jenis{
+        font-size: 18px;
+        color: #000000;
+    }
+    p{
+        font-size: 18px;
+        color: #000000;
+    }
+    a.navbar-brand{
+        font-size: 22px;
+    }
+    div.navbar-nav{
+        font-size: 18px;
+    }
+}
+@media(max-width:575.98px){
+    section{
+        width: 100%;
+        min-height: 100vh;
+    }
+    div.head{
+        list-style-type: none;
+        float: right;
+        margin-top: 20px;
+    }
+    .title{
+        margin-top: 50vw;
+    }
+    h1{
+        color: #000000;
+        font-size: 27px;
+        margin-top: 20px;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+    }
+    h1.inline{
+        font-size: 20px;
+        text-align: left;
+        margin-top: 25px;
+    }
+    p.inline{
+        font-size: 20px;
+        margin: 10px;
+    }
+    ol.jenis{
+        font-size: 18px;
+    }
+    p.per{
+        font-size: 18px;
+        text-align: justify;
+    }
+    p{
+        font-size: 18px;
+    }
+    ul.jenis{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}

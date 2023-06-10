@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS BESAR ALJABAR LINEAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-color: #f0fcfe;">
+        <section class="materi" id="materi">
+            <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: #194569;">
+                <div class="container-fluid">
+                  <a class="navbar-brand px-4 fw-bold" style="color: #ffffff;" href="#">Materi Matriks</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex justify-content-center justify-content-lg-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav px-5 text-center">
+                      <a class="nav-link px-3 text-white" href="#materi">Materi</a>
+                      <a class="nav-link px-3 text-white" href="#contoh">Contoh Soal</a>
+                      <a class="nav-link px-3 text-white" href="#about">About</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            <div class="container">
+                <h1 class="px-2 py-2 inline fw-bold">Pengertian Matriks</h1>
+                <div class="row">
+                    <div>
+                        <p class="per px-2" style="text-align: justify; text-indent: 50px;">Matriks adalah susunan bilangan-bilangan berbentuk persegi panjang yang diatur dalam baris atau kolom dengan dibatasi kurung. Bilangan yang tersusun dalam matriks disebut elemen atau unsur matriks. Umumnya, matriks berada di dalam tanda kurung dan dinyatakan sebagai huruf kapital. Baris adalah susunan bilangan-bilangan yang mendatar (horizontal), sedangkan kolom adalah susunan bilangan-bilangan yang tegak (vertikal).</p>
+                    <h1 class="px-2 py-2 inline fw-bold">Ordo Suatu Matriks</h1>
+                        <p class="per px-2" style="text-align: justify; text-indent: 50px;">Ordo matriks disebut juga dengan ukuran matriks. Misalnya matriks berordo 2 x 2, maka matriks tersebut berukuran 2 baris dan 2 kolom. Begitu juga dengan matriks berordo 3 x 3, maka matriknya berukuran 3 baris dan 3 kolom.</p>
+                        <p class="per px-2">Contoh : </p>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p class="per px-4">Ordo 2 x 2</p>
+                                    <img src="assets/img/contoh1.png" class="mt-lg-0 inline px-3" style="width: 11rem;" alt="">
+                                </td>
+                                <td>
+                                    <p class="per px-4">Ordo 3 x 3</p>
+                                    <img src="assets/img/contoh2.png" class="mt-lg-0 inline px-3" style="width: 12rem;" alt="">
+                                </td>
+                            </tr>
+                        </table>
+                        <h1 class="px-2 py-2 inline fw-bold">Operasi Sebuah Matriks</h1>
+                        <ol class="jenis">Ada 3 macam pengoperasian pada matriks, yaitu : 
+                          <li>Operasi Penjumlahan Matriks</li>
+                          <li>Operasi Pengurangan Matriks</li>
+                          <li>Operasi Perkalian Matriks</li>
+                        </ol>
+                        <p class="px-2 py-2 inline fw-bold">1. Operasi Penjumlahan Matriks</>
+                        <p class="per px-2" style="text-indent: 50px;">Penjumlahan matriks memiliki syarat yaitu apabila matriks akan dijumlahkan maka kedua matriks tersebut harus memiliki ordo yang sama. Hasil penjumlahan matriks diperoleh dengan menjumlahkan elemen-elemen yang seletak. </p>
+                        <p class="per px-2">Berikut merupakan cara penyelesain penjumlahan matriks : </p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/img/jumlah.png" class="mt-lg-0 inline px-3" style="width: 18rem;" alt="">
+                        </div>
+                        <p class="px-2 py-2 inline fw-bold">2. Operasi Pengurangan Matriks</>
+                        <p class="per px-2" style="text-indent: 50px;">Pengurangan matriks memiliki konsep yang sama seperti penjumlahan yaitu kedua matriks harus memiliki ordo yang sama. Hasil pengurangan matriks diperoleh dengan mengurangkan elemen-elemen yang seletak. </p>
+                        <p class="per px-2">Berikut merupakan cara penyelesain pengurangan matriks : </p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/img/kurang.png" class="mt-lg-0 inline px-3" style="width: 18rem;" alt="">
+                        </div>
+                        <p class="px-2 py-2 inline fw-bold">3. Operasi Perkalian Matriks</>
+                        <ul class="jenis">Ada 2 cara pengerjaan perkalian matriks, yaitu :  
+                            <li>Perkalian Skalar</li>
+                          </ul>
+                        <p class="per px-3" style="text-indent: 50px; text-align: justify;">Pada operasi perkalian skalar, sebuah matriks dikalikan dengan bilangan skalar. Jika diketahui A merupakan suatu matriks dan K merupakan bilangan real, maka hasil perkalian K dengan matriks A adalah matriks yang diperoleh dengan mengalikan setiap elemen A dengan K.</p>
+                        <p class="per px-3">Berikut merupakan cara penyelesain perkalian saklar pada matriks : </p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/img/kali1.png" class="mt-lg-0 inline px-3" style="width: 28rem;" alt="">
+                        </div>
+                        <ul class="jenis">
+                            <li>Perkalian Dua Matriks</li>
+                        </ul>
+                        <p class="per px-3" style="text-indent: 50px; text-align: justify;">Berbeda dengan perkalian skalar yang hanya mengalikan setiap elemen matriks dengan bilangan skalar, perkalian dua matriks memiliki aturan tersendiri.  Syarat dua buah matriks, misal matriks A dan matriks B, dapat dikalikan adalah jika banyaknya kolom matriks A sama dengan banyaknya baris matriks B.</p>
+                        <p class="per px-3">Berikut merupakan cara penyelesain perkalian dua matriks : </p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/img/kali2.png" class="img px-3" style="width: 20rem;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contoh" id="contoh">
+            <div class="container">
+                <h1 class="px-2 py-3 inline fw-bold">Contoh Soal : </h1>
+                <div class="row">
+                    <div>
+                        <ul class="jenis">
+                            <li>Penjumlahan Matriks</li>
+                        </ul>
+                        <p class="per px-3 text-center">Ordo 2 x 2</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/img/a.png" class="mt-lg-0 inline px-3" style="width: 21rem;" alt="">
+                        </div>
+                            <p class="per px-3 mt-4 text-center">Ordo 3 x 3</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/img/b.png" class="mt-lg-0 inline px-3" style="width: 21rem;" alt="">
+                        </div>
+                        <ul class="jenis mt-5">
+                            <li>Pengurangan Matriks</li>
+                        </ul>
+                            <p class="per px-3 text-center">Ordo 2 x 2</p>
+                        <div class="d-flex justify-content-center">    
+                            <img src="assets/img/c.png" class="mt-lg-0 inline px-3" style="width: 21rem;" alt="">
+                        </div>
+                            <p class="per px-3 mt-4 text-center">Ordo 3 x 3</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/img/d.png" class="mt-lg-0 inline px-3" style="width: 21rem;" alt="">
+                        </div>
+                        <ul class="jenis mt-5">
+                            <li>Perkalian Skalar</li>
+                        </ul>
+                            <p class="per px-3 text-center">Ordo 2 x 2</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/img/e.png" class="mt-lg-0 inline px-3" style="width: 23rem;" alt="">
+                        </div>
+                            <p class="per px-3 mt-4 text-center">Ordo 3 x 3</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/img/f.png" class="mt-lg-0 inline px-3" style="width: 24rem;" alt="">
+                        </div>
+                        <ul class="jenis mt-5">
+                            <li>Perkalian Dua Matriks</li>
+                        </ul>
+                            <p class="per px-3 text-center">Ordo 2 x 2</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/img/h.png" class="mt-lg-0 inline px-3" style="width: 23rem;" alt="">
+                        </div>
+                            <p class="per px-3 mt-4 text-center">Ordo 3 x 3</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="assets/img/i.png" class="mt-lg-0 inline px-3" style="width: 30rem;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <section class="about" id="about">
+                <div class="container" style="height: 500px;">
+                    <h1 class="py-3 px-1 inline fw-bold">About</h1>
+                    <p style="text-align: justify;">Pembuatan website ini bertujuan untuk memenuhi Tugas Besar Aljabar Linear di Universitas Dian Nusantara.</p>
+                    <table class="table table-light" style="font-size: 18px; color: #000000;">
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td>Rifda Mumtaz Audami</td>
+                        </tr>
+                        <tr>
+                            <td>NIM</td>
+                            <td>:</td>
+                            <td>411221129</td>
+                        </tr>
+                        <tr>
+                            <td>Mata Kuliah</td>
+                            <td>:</td>
+                            <td>Aljabar Linear</td>
+                        </tr>
+                        <tr>
+                            <td>Prodi</td>
+                            <td>:</td>
+                            <td>Teknik Informatika (Cibubur)</td>
+                        </tr>
+                        <tr>
+                            <td>Dosen</td>
+                            <td>:</td>
+                            <td>Masnia, M. Pd</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <footer class="bg-dark">
+                <div class="container py-3">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-12 col-lg-2 text-center">
+                            <h4 class="text-white">Aljabar Linear</h4>
+                            <p style="font-size: 18px;" class="text-white">by Rifda Mumtaz</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- CDN Bootstrap  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- Akhir Bootstrap  -->
+    
+</body>
+</html>
